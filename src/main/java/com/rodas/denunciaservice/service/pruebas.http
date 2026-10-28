@@ -1,0 +1,11 @@
+
+### 1. Registrar una denuncia
+POST http://localhost:8080/denuncias/
+Content-Type: application/json
+
+{
+  "dni": "87654321",
+  "tipo": "ROBO",
+  "direccion": "Av. Balta 200, Chiclayo",
+  "descripcion": "Robo de prueba para verificar la API"
+}
